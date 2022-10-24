@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 
+    MIXINS PARA RESPONSIVENESS
+*/
+h1 {
+  text-align: center;
+}
+
+main {
+  display: flex;
+}
+main nav > ul {
+  min-height: 100vh;
+  border-right: 1px solid #002454;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+main nav > ul li {
+  margin-top: 2rem;
+}
+main p {
+  margin-top: 1rem;
+}
+main div > ol {
+  margin-top: 1rem;
+}
+main div > ol > li {
+  margin-left: 2rem;
+}
+
+/*# sourceMappingURL=index.css.map */

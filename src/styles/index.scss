@@ -1,0 +1,35 @@
+@use './abstracts/' as *;
+//@use './components/' as *;
+//@use './pages/' as *;
+
+h1 {
+  text-align: center;
+}
+
+main {
+  display: flex;
+
+  & nav>ul {
+    min-height: 100vh;
+    border-right: 1px solid $primeColor;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+    & li {
+      margin-top: 2rem;
+    }
+  }
+
+  p {
+    margin-top: 1rem;
+  }
+
+  & div>ol {
+    margin-top: 1rem;
+
+    &>li {
+      margin-left: 2rem;
+    }
+  }
+}
