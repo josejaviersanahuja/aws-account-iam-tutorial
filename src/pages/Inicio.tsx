@@ -7,7 +7,7 @@ export default function Inicio({ }: Props) {
     <div>
       <h2>Inicio</h2>
       <p>
-        Soy desarrollador web y desarrollador de bases de datos. He realizado este tutorial para aquellos clientes que desean que les produzca una aplicación full stack y se las configure en la nube de AWS
+        Soy desarrollador web y desarrollador de bases de datos. He realizado este tutorial para aquellos clientes que desean que les algún servicio y se los configure en la nube de AWS
       </p>
       <p>AWS es el proveedor de servicios más fiable y asequible, con una gran documentación y gran fiabilidad, es por eso que me gusta trabajar con ellos.</p>
       <p>

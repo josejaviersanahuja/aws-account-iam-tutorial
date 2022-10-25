@@ -36,11 +36,21 @@ export default function Navbar({ }: Props) {
     <main>
       <nav>
         <ul>
-          <li><NavLink to={"inicio"}>Inicio</NavLink></li>
-          <li><NavLink to={"cuenta_aws"}>Cuenta AWS</NavLink></li>
-          <li><NavLink to={"mfa"}>MFA</NavLink></li>
-          <li><NavLink to={"grupo_iam"}>Grupo IAM</NavLink></li>
-          <li><NavLink to={"usuario_iam"}>Usuario IAM</NavLink></li>
+          <li><NavLink to={"inicio"}
+            className={({isActive}) => isActive? "link__active" : "link__inactive"}
+          >Inicio</NavLink></li>
+          <li><NavLink to={"cuenta_aws"}
+            className={({isActive}) => isActive? "link__active" : "link__inactive"}
+          >Cuenta AWS</NavLink></li>
+          <li><NavLink to={"mfa"}
+            className={({isActive}) => isActive? "link__active" : "link__inactive"}
+          >MFA</NavLink></li>
+          <li><NavLink to={"grupo_iam"}
+            className={({isActive}) => isActive? "link__active" : "link__inactive"}
+          >Grupo IAM</NavLink></li>
+          <li><NavLink to={"usuario_iam"}
+            className={({isActive}) => isActive? "link__active" : "link__inactive"}
+          >Usuario IAM</NavLink></li>
         </ul>
       </nav>
       <div>
