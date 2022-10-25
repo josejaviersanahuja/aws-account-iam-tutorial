@@ -25,12 +25,12 @@ export default function CuentaAws({ }: Props) {
         src='https://firebasestorage.googleapis.com/v0/b/twitter-clone-d82aa.appspot.com/o/images%2Fcaptcha_seguridad.JPG?alt=media&token=384d2867-a7ba-430a-a139-09dee425b00d'
         alt='captcha'
       />
-      <p>Ahora toca validad el email</p>
+      <p>Ahora toca validar el email</p>
       <img 
         src='https://firebasestorage.googleapis.com/v0/b/twitter-clone-d82aa.appspot.com/o/images%2FValidamos_email.JPG?alt=media&token=ccad9876-112e-457e-9960-9c83dd17f10e'
         alt='validar email'
       />
-      <p>Introducimos una contreseña segura. Observa bien la imágen porque pide 4 tipos diferentes de caracteres</p>
+      <p>Introducimos una contreseña segura. Observa bien la imágen porque pide 4 tipos diferentes de caracteres. En realidad 3 de esos 4 tipos</p>
       <img 
         src='https://firebasestorage.googleapis.com/v0/b/twitter-clone-d82aa.appspot.com/o/images%2Fpassword_aws_cuenta.JPG?alt=media&token=a565e354-eae9-4127-b9e6-e5a65a2a07a6'
         alt='password'
@@ -45,7 +45,7 @@ export default function CuentaAws({ }: Props) {
         src='https://firebasestorage.googleapis.com/v0/b/twitter-clone-d82aa.appspot.com/o/images%2Ftarjeta_de_credito_aws.JPG?alt=media&token=83c2782a-d312-4d5e-98c8-e26affc58327'
         alt='registro'
       />
-      <p>Última verificación a través de un teléfono móvil.</p>
+      <p>Última verificación a través de un teléfono móvil. No te van a cobrar ni te van a hacer spam</p>
       <img 
         src='https://firebasestorage.googleapis.com/v0/b/twitter-clone-d82aa.appspot.com/o/images%2Fultima_verificacion_aws.JPG?alt=media&token=4ef0e637-55ad-4246-8a5c-7615339b0acf'
         alt='registro'
@@ -55,7 +55,7 @@ export default function CuentaAws({ }: Props) {
         src='https://assets-zitrojj.s3.eu-west-1.amazonaws.com/soporte_basico_gratis.JPG'
         alt='registro'
       />
-      <p>Felicidades! Has completado tu cuenta de AWS. Ahora toca protegerla. Ve a MFA en el menú de la izquierda</p>
+      <p><b>¡Felicidades! Has completado tu cuenta de AWS.</b> Ahora toca protegerla. Ve a MFA en el menú de la izquierda</p>
       <img 
         src='https://firebasestorage.googleapis.com/v0/b/twitter-clone-d82aa.appspot.com/o/images%2Ffinalizado_aws_signedup.JPG?alt=media&token=4f88c56e-ebe6-47f6-b0a9-718326f7f870'
         alt='registro'

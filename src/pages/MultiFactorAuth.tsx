@@ -28,7 +28,7 @@ export default function MultiFactorAuth({ }: Props) {
         alt='aws_inicio_cuenta'
       />
       <p>
-        Y en las opciones de seguridad seleccionamos MFA. Pausamos aquí y vamos al móvil.
+        Y en las opciones de seguridad seleccionamos Activar MFA. Aunque aparezca una ventana, déjala abierta, pausamos aquí y vamos al móvil.
       </p>
       <img 
         src='https://firebasestorage.googleapis.com/v0/b/twitter-clone-d82aa.appspot.com/o/images%2FActivar_MFA.JPG?alt=media&token=c3da3613-7ac2-412d-ad18-e9699554fee1'
@@ -47,12 +47,12 @@ export default function MultiFactorAuth({ }: Props) {
         src='https://assets-zitrojj.s3.eu-west-1.amazonaws.com/microsoft_auth_add_new.JPG'
         alt='auth_add'
       />
-      <p>Ahora en la aplicación móvil debes seleccionar otras cuentas, y te va a pedir que scanees un código QR que te va a mostrar AWS en el ordenador.</p>
+      <p>Ahora en la aplicación móvil debes seleccionar otras cuentas, y te va a pedir que scanees un código QR que te va a mostrar AWS en el ordenador. Esta debía ser la imagen que dejamos cuando empezamos a descargar la aplicación móvil</p>
       <img
         src='https://assets-zitrojj.s3.eu-west-1.amazonaws.com/pasos_finales_auth.JPG'
         alt='auth_add'
       />
-      <p>Casi simultáneamente, das click en el ordenador para ver el QR, y con el móvil lo scaneas. Las aplicaciones MFA de los móviles van generando claves aleatorias cada 30 segundos. Estas claves aleatorias ayudan a identificar tu móvil con tu cuenta de AWS. Registras 2 claves seguidas y con esto quedará registrado el MFA.</p>
+      <p>Casi simultáneamente, das click en el ordenador para ver el QR, y con el móvil lo scaneas. Las aplicaciones MFA de los móviles van generando claves aleatorias cada 30 segundos. Estas claves aleatorias ayudan a identificar tu móvil con tu cuenta de AWS. Registras 2 claves seguidas, le das click a Asignar MFA y con esto quedará registrado el MFA.</p>
     </div>
   )
 }
