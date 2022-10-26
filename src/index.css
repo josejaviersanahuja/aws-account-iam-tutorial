@@ -16,47 +16,15 @@ body {
 /* 
     MIXINS PARA RESPONSIVENESS
 */
-h1 {
-  text-align: center;
-}
-
-main {
-  display: flex;
-}
-main > div {
-  height: 100vh;
-  overflow-y: scroll;
-  padding: 1rem;
-}
-main > div > div {
-  display: flex;
-  flex-direction: column;
-}
-main nav > ul {
-  min-height: 100vh;
+nav > ul {
   border-right: 1px solid #002454;
   display: flex;
-  flex-direction: column;
-  padding: 1rem;
+  padding: 0.7rem;
   list-style-type: none;
-  min-width: 200px;
+  min-width: 140px;
 }
-main nav > ul li {
-  margin-top: 2rem;
-}
-main p {
-  margin-top: 1rem;
-}
-main div > ol {
-  margin-top: 1rem;
-}
-main div > ol > li {
-  margin-left: 2rem;
-}
-main div img {
-  max-width: 500px;
-  align-self: center;
-  margin-top: 0.5rem;
+nav > ul li {
+  margin: auto;
 }
 
 .link__active {
@@ -71,6 +39,54 @@ main div img {
   text-decoration: none;
   font-weight: 400;
   border: 1px solid transparent;
+}
+
+@media screen and (min-width: 500px) {
+  h1 {
+    text-align: center;
+  }
+  main {
+    display: flex;
+  }
+  main > div {
+    height: 100vh;
+    overflow-y: scroll;
+    padding: 1rem;
+  }
+  main > div > div {
+    display: flex;
+    flex-direction: column;
+  }
+  main nav > ul {
+    min-height: 100vh;
+    flex-direction: column;
+    min-width: 140px;
+  }
+  main nav > ul li {
+    margin: 2rem 0 0 0;
+  }
+  main p {
+    margin-top: 1rem;
+  }
+  main div > ol {
+    margin-top: 1rem;
+  }
+  main div > ol > li {
+    margin-left: 2rem;
+  }
+  main div img {
+    max-width: 360px;
+    align-self: center;
+    margin-top: 0.5rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  main nav > ul {
+    min-width: 200px;
+  }
+  main div img {
+    max-width: 500px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
