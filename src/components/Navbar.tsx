@@ -48,6 +48,9 @@ export default function Navbar({ }: Props) {
           <li><NavLink to={"usuario_iam"}
             className={({isActive}) => isActive? "link__active" : "link__inactive"}
           >Usuario IAM</NavLink></li>
+          <li><NavLink to={"crear_budget"}
+            className={({isActive}) => isActive? "link__active" : "link__inactive"}
+          >Crear Budget</NavLink></li>
         </ul>
       </nav>
       <div>
